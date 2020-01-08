@@ -1,0 +1,21 @@
+import random
+
+n = 10
+
+z = []
+for i in range(0,n):
+    z = z + [random.randint(1,100)]
+for i in range(10):
+    print(z[i], end=" ")
+
+p_min = 0
+
+for i in range(1,n):
+    if z[i] < z[p_min]:
+        druhy_min = p_min
+        p_min = i
+        
+print()
+print("Najmenšie číslo je: ",z[p_min])
+print()
+print("druhé najmenšie číslo je: ",z[druhy_min])
