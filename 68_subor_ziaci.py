@@ -9,3 +9,4 @@ while True:
         break
 
    
+subor1.close()
