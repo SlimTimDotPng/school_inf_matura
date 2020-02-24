@@ -1,5 +1,5 @@
 import math 
-subor1 = open('c:\\users\\maturita\\kvadrat.txt','w')
+subor1 = open('kvadrat.txt','w')
 
 a = input('zadaj koeficient a:')
 b = input('zadaj koeficient b:')
